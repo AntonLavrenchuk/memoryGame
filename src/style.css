@@ -1,0 +1,69 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.hidden {
+  color: white;
+}
+
+.upturned {
+  color: black;
+}
+
+.upturned,
+.hidden {
+  display: inline-block;
+  border: 1px solid black;
+  width: 90px;
+  height: 90px;
+  background-size: 90px 90px;
+}
+
+.mainDiv {
+  padding: 20px;
+  text-align: center;
+}
+
+body { 
+  margin: 0;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration-line: none;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 2px auto;
+  display: block;
+}
+
+.start {
+  background-color: coral;
+  padding: 10px;
+}
